@@ -1,0 +1,99 @@
+#html.css
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="website for a hotel.css">
+
+		<title>
+<!doctye html>
+		    WELCOME TO OUR RESTAURANT
+		</title>
+	</head>
+	<body>
+		<header class="Title">
+			<nav id="h-n" class="navbar navbar-default"> 
+		  <div class="I">
+		 	 <div class="A">	
+				<img src="C:\Program Files\Sublime Text 3\IMAGES\batman.jpeg" class="fit-image">
+					<span class="a">welcome to our restaurant</span>
+			</div>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</nav>
+			 </button>
+		</div>
+	</header>
+	<div class="B">Our menu</div>
+	<section class="C">
+		<h1 class="c">Chicken</h1>
+		<p>Chicken's flavor profile is a crowd-pleaser. The white meat is known for its mild, savory taste that easily adapts to various seasonings.  A perfectly cooked chicken breast can be juicy and tender, with a hint of sweetness. Dark meat like thighs and drumsticks boasts a richer, more intense flavor due to its higher fat content. This versatility makes chicken a culinary chameleon, starring in a world of recipes. From the crispy satisfaction of fried chicken to the fragrant depth of curries, the smoky allure of barbecue to the comforting warmth of chicken pot pie, chicken's ability to absorb and complement flavors makes it a staple in kitchens everywhere. </p>
+	</section>
+		
+
+		
+	</body>
+	</html>
+
+
+#style.css
+body{
+	height:100%vh;
+	background-color: black;
+}
+
+
+.Title{
+	background-color: black;
+	color:whitesmoke;
+	font-weight:bolder;
+	font-feature-settings: initial;
+	width:100%vw;
+    position:relative;
+}
+.fit-image{
+	width:400px;
+	height: 200px;
+	object-fit: contain;
+}
+.a{
+	margin:15px;
+	font-weight: bolder;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow:0 0 10px #fff,0 0 20px rgba(255,255,255,0.6),0 0 50px rgba(255,255,255,0.2);
+	animation:pulsate 1 s ease-in-out infinite alternate;
+	text-decoration: underline;
+
+}
+@keyframes pulsate{
+	from{ text-shadow:0 0 4px #fff; }
+	to{text-shadow: 0 0 10px #fff,
+	0 0 20px rgba(255,255,255,0.6),	
+	0 0 50px rgba(255,255,255,0.2);
+    }
+}
+.A{
+	border: 3px solid whitesmoke;
+}
+.B{
+	margin-top: 45px;
+	margin-bottom: 45px;
+	color:darkred;
+	text-shadow: 0 0 15px #fff,0 0 20px rgba(255,255,255,0.7),0 0 50px rgba(255,255,255,0.4);
+	font-weight: bolder;
+	font-size: 75px;
+	text-align: center;
+}
+.C{
+	color:whitesmoke;
+	text-shadow:0 0 15px #fff,0 0 20px rgba(255,255,255,0.7),0 0 50px rgba(255,255,255,0.4);
+	margin:10px;
+	border: 2px solid whitesmoke;
+}
+.c{
+	color: white;
+	border:2px;
+	width:100%vw;
+}
